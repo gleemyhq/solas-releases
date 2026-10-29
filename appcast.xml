@@ -6,6 +6,23 @@
         <description>Production appcast feed for solas.</description>
         <language>en</language>
         <item>
+            <title>1.0.1</title>
+            <pubDate>Thu, 29 Oct 2026 14:35:08 +0600</pubDate>
+            <link>https://gleemyhq.github.io/solas-releases</link>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Solas 1.0.1
+
+## 🐞 Bug fixes
+
+- Pause when using other apps now rests a screen only while another app's window covers most of it. Dragging desktop icons no longer freezes the pond, and small windows, tooltips, and Finder's desktop leave the water running.
+- Click ripples no longer go silent until relaunch after a sleep/wake, display wake, or user-session switch; Solas re-registers its click monitors on those transitions and refreshes them periodically, so a silent failure recovers within seconds instead of waiting for a relaunch.
+- A right-click menu can no longer swallow a later desktop click: the next left click resolves the suppression even when it lands on a menu item or another app.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0.1/Solas-1.0.1.dmg" length="4978188" type="application/octet-stream" sparkle:edSignature="f8HIDKoF+wr+D8q7LHWJLEKVi2Wa0c2N9sFVk/QB2xafSK10irG23JUS0PcOASnqDffWCH+ZCoNX96hPLErjBw=="/>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Thu, 29 Oct 2026 12:32:39 +0600</pubDate>
             <link>https://gleemyhq.github.io/solas-releases</link>
