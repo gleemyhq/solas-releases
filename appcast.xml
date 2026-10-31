@@ -6,6 +6,29 @@
         <description>Production appcast feed for solas.</description>
         <language>en</language>
         <item>
+            <title>1.0.3</title>
+            <pubDate>Sat, 31 Oct 2026 20:33:13 +0600</pubDate>
+            <link>https://gleemyhq.github.io/solas-releases</link>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Solas 1.0.3
+
+## ✨ What's new
+
+- The pond now stays visible as a still wallpaper when your trial ends. Activate a license to resume animation.
+- Koi are spaced apart in the still wallpaper shown after the trial ends.
+
+## 🐞 Bug fixes
+
+- Fixed app updates failing with "An error occurred while launching the installer."
+- Fixed the wallpaper failing to appear or appearing late when launching with other apps open or switching desktops.
+- Fixed enabled plants, including lily pads, missing from paused ponds.
+- Fixed small fish disappearing when many koi were enabled.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0.3/Solas-1.0.3.dmg" length="10369677" type="application/octet-stream" sparkle:edSignature="LbTncl2YIEYV6ZXFX5MdyjNnaqXz0LRhvHUgN2M3+M7vQ95AEIx/VUTDo9xYqa/YwY86NF7RmKkbyqsx7k2+Aw=="/>
+        </item>
+        <item>
             <title>1.0.2</title>
             <pubDate>Sat, 31 Oct 2026 19:27:38 +0600</pubDate>
             <link>https://gleemyhq.github.io/solas-releases</link>
@@ -36,30 +59,6 @@
 - A right-click menu can no longer swallow a later desktop click: the next left click resolves the suppression even when it lands on a menu item or another app.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0.1/Solas-1.0.1.dmg" length="4978188" type="application/octet-stream" sparkle:edSignature="f8HIDKoF+wr+D8q7LHWJLEKVi2Wa0c2N9sFVk/QB2xafSK10irG23JUS0PcOASnqDffWCH+ZCoNX96hPLErjBw=="/>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 29 Oct 2026 12:32:39 +0600</pubDate>
-            <link>https://gleemyhq.github.io/solas-releases</link>
-            <sparkle:version>1</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Solas 1.0
-
-First release.
-
-## ✨ What's new
-
-- Living pond wallpaper: sits above your wallpaper, below your icons.
-- Weather presets plus Follow Device Time, from dawn to moonlight.
-- Water color, clarity, touch ripples, currents with strength, speed, and core glow.
-- Fish with behavior modes plus feed-the-fish (hold and click to sprinkle food), active koi counts.
-- Decorations: lily pads, flower styles and counts.
-- Motion speed, performance controls (pause on battery, pause when using apps, frame rates, Pixel/Balanced/Smooth quality), launch at login.
-- 3-day free trial, then one license covers up to 3 Macs.
-- Automatic updates via Sparkle with About-pane toggles.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0/solas-1.0.dmg" length="4974248" type="application/octet-stream" sparkle:edSignature="9vgcldWoWeF4CcXGWTA4gBe9+WZbCc1gVMq7nDaG9uYMFjT6zWMXt2H7pTDvWvSOGdVJ4rAvzzPv4SnciWfKAQ=="/>
         </item>
     </channel>
 </rss>
