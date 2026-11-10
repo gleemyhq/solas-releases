@@ -6,6 +6,32 @@
         <description>Production appcast feed for solas.</description>
         <language>en</language>
         <item>
+            <title>1.2.0</title>
+            <pubDate>Tue, 10 Nov 2026 22:40:47 +0600</pubDate>
+            <link>https://gleemyhq.github.io/solas-releases</link>
+            <sparkle:version>6</sparkle:version>
+            <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Solas 1.2.0
+
+## ✨ What's new
+
+- Watch the pond follow the seasons: flowering cherry branches and drifting sakura petals in spring, an overhanging bough in summer, crimson maple twigs and floating leaves in autumn, and snow-dusted branches with camellias, snow banks, and frost crystals in winter. The bed, water, greenery, and even the moss on the stones all take on each season's light — and every water colour stays beautiful in every season.
+- Make the seasons yours: choose how many twigs, camellias, and floating petals each season gets, follow the calendar or set the date each season begins, and reach everything from the new **Pond Plants** menu in the menu bar. New pond keepers pick their season during setup, watching the preview pond change as they choose.
+- Arrange your pond: drag lily pads, duckweed, rocks, and other plants into place, and rotate them to taste. Open **Arrange Pond** from the menu bar or Plants settings, then save, undo, reset, or cancel your changes.
+- New **Call fish**: click the pond and the koi rise, swim to your click — each after its own short beat — then gather and circle the spot before drifting back to their routines. On by default, and yours to switch off in the menu bar or Settings. Feeding (Option-click) still works as before.
+- Fish move like fish now: no more beelines. Every approach to food or to your click is an individual swoop, bodies bending through the turns, and dropping food in several places spreads the pond across all of them instead of piling everyone onto one spot.
+- Choose how many duckweed patches, Anubias plants, and hairgrass patches appear in your pond — in every season, Anubias included. Redesigned duckweed patches move independently of lily pads, and hidden decorations keep their positions when you bring them back.
+- A fresher pond floor: stones have a softer, natural mineral texture with seasonal moss, lily pads have a richer, softly cupped face, a gentle shoreline shadow gives the water real depth at its edges, and fresh ponds start with a calmer stone arrangement. If you have already arranged your stones, yours stay exactly where you put them.
+- Koi and mandarins have more detailed fins and fuller, shaped tails.
+
+## 🐞 Bug fixes
+
+- Fixed the pond being cropped on the wrong axis on displays whose aspect ratio differs from the main screen.
+]]></description>
+            <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.2.0/Solas-1.2.0.dmg" length="10860819" type="application/octet-stream" sparkle:edSignature="k8pZF/ZlQrteEEziuERAMMV1UMqeji3p/gI3Do9/+UjHccGYoeC5nUJzpiRdlb+KXQO5aGYclLwLOMDSevWtAg=="/>
+        </item>
+        <item>
             <title>1.1.0</title>
             <pubDate>Wed, 04 Nov 2026 21:23:00 +0600</pubDate>
             <link>https://gleemyhq.github.io/solas-releases</link>
@@ -54,21 +80,6 @@
 - Fixed small fish disappearing when many koi were enabled.
 ]]></description>
             <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0.3/Solas-1.0.3.dmg" length="10369677" type="application/octet-stream" sparkle:edSignature="LbTncl2YIEYV6ZXFX5MdyjNnaqXz0LRhvHUgN2M3+M7vQ95AEIx/VUTDo9xYqa/YwY86NF7RmKkbyqsx7k2+Aw=="/>
-        </item>
-        <item>
-            <title>1.0.2</title>
-            <pubDate>Sat, 31 Oct 2026 19:27:38 +0600</pubDate>
-            <link>https://gleemyhq.github.io/solas-releases</link>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Solas 1.0.2
-
-## ✨ What's new
-
-- Refreshed app icon.
-]]></description>
-            <enclosure url="https://github.com/gleemyhq/solas-releases/releases/download/v1.0.2/Solas-1.0.2.dmg" length="10369146" type="application/octet-stream" sparkle:edSignature="Tckeb23fKMCVaKQNf6cgbqTuqnMvxSuSMqyHe2lqZkmEMPhkfIk6Kg6XwVXsirfkWODQpXHF/QXXqF6Xd+HPDw=="/>
         </item>
     </channel>
 </rss>
